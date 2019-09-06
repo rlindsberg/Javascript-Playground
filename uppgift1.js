@@ -14,3 +14,12 @@ var bra = [
     "bra3",
     "bra4",
 ];
+
+for (var i = 0; i < bra.length; i++) {
+    var paragraph = document.createElement("p");
+    var text = document.createTextNode(bra[i]);
+    paragraph.appendChild(text);
+    div2.appendChild(paragraph);
+    document.body.appendChild(div2);
+
+}
