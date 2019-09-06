@@ -9,10 +9,10 @@ document.body.appendChild(div)
 var div2 = document.createElement("div");
 
 var bra = [
-    "bra1",
-    "bra2",
-    "bra3",
-    "bra4",
+    "steka fisk",
+    "koka soppa",
+    "hacka lök",
+    "baka bröd",
 ];
 
 for (var i = 0; i < bra.length; i++) {
